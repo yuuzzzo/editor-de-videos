@@ -1,0 +1,91 @@
+*{
+    background-color: black;
+    color: lightgrey;
+    font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    border: 2px #BA55D3 solid;
+    border-radius: 50px;
+
+}
+
+.conteiner1{
+    text-align: center;
+    padding: 10px;
+}
+
+#lista{
+    text-align: center;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.discord{
+    margin: 0px 50px 0px 0px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.discord:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.instagram{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.instagram:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.texto1 {
+    margin: 0px 15px;
+    color: #6495ED;
+}
+
+.texto2 {
+    margin: 9px;
+    color: #BA55D3;
+}
+
+.linha1{
+    padding: 5px;
+    border: 1px #BA55D3 solid;
+}
+
+.conteiner2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.after{
+    padding: 20px;
+    flex-direction: row;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+.perguntas{
+    display: flex;
+}
